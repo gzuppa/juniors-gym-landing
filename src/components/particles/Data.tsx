@@ -105,22 +105,22 @@ export const ContactTexts = {
 }
 
 export const TestimonialTexts = {
-  firstText: "our testimonials",
-  secondText: "What Clients Say",
+  firstText: "Opiniones",
+  secondText: "Lo que opinan nuestros clientes",
   feedBacks: [
       {
-          text: "I've been a member for six months, and the gym's supportive community and knowledgeable trainers have helped me surpass my fitness goals!",
-          person: "Darrell Murray",
+          text: "He venido a Junior's Gym desde hace seis meses y me siento mejor que nunca",
+          person: "Gustavo Zuppa",
           type: "Client"
       },
       {
-          text: "The Yoga classes have transformed my life; I feel more centered, strong, and peaceful every time I step on the mat.",
-          person: "Derrick Rodriquez",
+          text: "Los entrenamientos siempre han sido personalizados y a medida, he alcanzado mis metas muy rápido",
+          person: "Juan Perez",
           type: "Client"
       },
       {
-          text: "Attending the Special Class has been a game-changer! It's intense, but the results are incredible. Highly recommended!",
-          person: "Collins Thompson",
+          text: "Bajé 10 kilos en 2 meses gracias a mis entrenadores",
+          person: "Mitzia Karen",
           type: "Client"
       }
   ],
