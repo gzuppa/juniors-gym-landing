@@ -47,27 +47,27 @@ export const HeroTexts = [
 
 
 export const AboutTexts = {
-  firstText: "About GymNex",
-  secondText: "Welcome",
-  caption: "Welcome to GymNex, where fitness meets community and transformation happens!",
-  paragraph1: "At GymNex, we are more than just a gym; we are a passionate and supportive fitness family dedicated to helping you achieve your health and wellness goals. Our mission is to create a positive and empowering environment that inspires you to challenge yourself, embrace a healthy lifestyle, and discover the best version of yourself.",
+  firstText: "Acerca de nosotros",
+  secondText: "Bienvenido",
+  caption: "Bienvenido a Junior's Gym. La fuerza no tiene límites",
+  paragraph1: "Somos más que un gimnasio; somos una familia apasionada por el deporte que estamos aquí para ayudarte a alcanzar tus objetivos físicos y mentales. Nuestra misión es crear un ambiente positivo que te inspire a retarte a ti mismo, a amar un estilo de vida sano, y descubrir la mejor versión de ti.",
 }
 
 export const OfferTexts = {
-  firstText: "What we do",
-  secondText: "All Our Offer",
+  firstText: "Que es lo que hacemos",
+  secondText: "Esto te ofrecemos",
   list: [
       {
-          listCaption: "Weight Loose Programs",
-          text: "Our personalized approach, expert guidance, and proven results will help you achieve your fitness goals. Take the first step towards a transformed body and lifestyle today.",
+          listCaption: "Programas para pérdida de peso",
+          text: "Acercamientos personalizados, guía con expertos, con resultados graduales para alcanzar tus metas. Realiza el primer paso para alcanzar una nueva vida y un cuerpo saludable.",
       },
       {
-          listCaption: "Body Building Programs",
-          text: "Our expert trainers will guide you through tailored workouts, helping you achieve your bodybuilding goals efficiently and safely.",
+          listCaption: "Aumento de musculatura",
+          text: "Nuestros entrenadores te ayudarán a disenar planes a tu medida, para alcanzar la musculatura que deseas con eficiencia y seguridad.",
       }
       , {
-          listCaption: "Different Special Classes",
-          text: "Take your workout to new heights with our high and intense Special Class, where you'll push your limits and achieve remarkable fitness results.",
+          listCaption: "Planes de acondicionamiento",
+          text: "Dependiendo de un análisis de entrenamiento y masa corporal, te ayudamos a recuperar energía y mantenerte sano.",
       }
   ],
 }
