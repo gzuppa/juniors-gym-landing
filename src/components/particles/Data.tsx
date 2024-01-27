@@ -98,10 +98,10 @@ export const MembershipPlans = {
 }
 
 export const ContactTexts = {
-  firstText: "call us today",
-  phone: "(+234)70-6910-6259",
-  paragraph: "At our gym, you can reach out to any of our trainers to schedule a session. Home services is also within the scope of out services. Your fitness is our concern! Health is wealth!",
-  button: "Schedule A Meet"
+  firstText: "Llamanos",
+  phone: "(+52)55-1234-5678",
+  paragraph: "En nuestro gimnasio, puedes comunicarte con cualquiera de nuestros entrenadores para programar una sesión. Los servicios a domicilio también están dentro del alcance de nuestros servicios. ¡Tu estado físico es nuestra preocupación! ¡Salud es riqueza!",
+  button: "Envianos un whatsapp"
 }
 
 export const TestimonialTexts = {
