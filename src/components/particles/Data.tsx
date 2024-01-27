@@ -73,26 +73,26 @@ export const OfferTexts = {
 }
 
 export const MembershipPlans = {
-  firstText: "Pricing Tables",
-  secondText: "Membership Plans",
+  firstText: "Tabla de precios",
+  secondText: "Planes de membresía",
   cards: [
       {
-          amount: 8,
-          duration: "day",
-          caption: "One Day Training",
-          benefits: ["One time access to all clubs", "Group trainer", "Book a Group class", "Fitness orientation"]
+          amount: 30,
+          duration: "día",
+          caption: "Visita de entrenamiento",
+          benefits: ["Visita individual", "Sin límite de tiempo por día", "Acercamiento con entrenadores", "Disponibilidad de todos los aparatos"]
       },
       {
-          amount: 49,
-          duration: "month",
-          caption: "12 Months Membership",
-          benefits: ["Group classes", "Discuss fitness goals", "Group trainer", "Fitness orientation"]
+          amount: 250,
+          duration: "mensual",
+          caption: "Pago por mes",
+          benefits: ["Plan con entrenador full", "Aparatos, pesas y cardio", "Análisis de masa corporal", "Orientación fitness"]
       },
       {
-          amount: 65,
-          duration: "month",
-          caption: "Pay Every Month",
-          benefits: ["Group classes", "Discuss fitness goals", "Group trainer", "Fitness orientation"]
+          amount: 2750,
+          duration: "anual",
+          caption: "Membresía anual",
+          benefits: ["Un mes gratis", "Asesoría personalizada full", "Entrenamientos personalizados", "Orientación fitness"]
       }
   ]
 }
