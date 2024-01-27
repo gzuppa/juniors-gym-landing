@@ -127,31 +127,31 @@ export const TestimonialTexts = {
 }
 
 export const BlogTexts = {
-  firstText: "Get informed",
-  secondText: "Our Latest News",
+  firstText: "Blog",
+  secondText: "Mantente informado",
   blogNews: [
       {
           caption: "Yoga",
-          title: "Do your self realizations quickly fade",
-          paragraph: "Discover the transformative power of yoga as we explore its numerous physical and mental benefits. From increased flexibility and strength to reduced stress and enhanced mindfulness, our yoga classes cater to practitioners of all levels. Join us on the mat and experience the harmony of mind, body, and soul.",
+          title: "Como mantener un equilibrio entre cuerpo y mente",
+          paragraph: "Descubre el poder transformador del yoga mientras exploramos sus numerosos beneficios físicos y mentales. Desde una mayor flexibilidad y fuerza hasta una reducción del estrés y una mayor atención plena. Experimente la armonía de mente, cuerpo y alma.",
           time: "1m",
-          author: "Ralph Cruz",
+          author: "Hector Varela",
           comments: "21"
       },
       {
-          caption: "Trainers & Equipment",
-          title: "Little Things Do make a difference",
-          paragraph: "At our gym, we take pride in our exceptional team of expert trainers who are passionate about guiding you on your fitness journey. With their knowledge and personalized approach, you'll receive the support you need to achieve your fitness goals effectively. Additionally, we offer state-of-the-art equipment that's designed to elevate your workouts and provide a holistic fitness experience like no other.",
+          caption: "Entrenamientos y equipo",
+          title: "Pequeños cambios que hacen la diferencia",
+          paragraph: "En nuestro gimnasio, estamos orgullosos de nuestro excepcional equipo de entrenadores expertos a quienes les apasiona guiarlo en su viaje de acondicionamiento físico. Con su conocimiento y enfoque personalizado, recibirá el apoyo que necesita para alcanzar sus objetivos de acondicionamiento físico de manera efectiva. Además, ofrecemos equipos de última generación diseñados para mejorar sus entrenamientos y brindarle una experiencia de acondicionamiento físico integral como ninguna otra.",
           time: "15m",
-          author: "Bruce Charles",
+          author: "Paco Varela",
           comments: "45"
       },
       {
-          caption: "Procrastination",
-          title: "The Time is Now",
-          paragraph: "Procrastination can be a common obstacle on the path to achieving our goals. In this blog, we delve into effective strategies to overcome procrastination and increase productivity. From time management techniques to staying motivated, we're here to help you take charge of your goals and embrace a more focused and fulfilling life. It's time to seize the day and make your dreams a reality!",
+          caption: "No lo dejes para después",
+          title: "El momento es ahora",
+          paragraph: "La procrastinación puede ser un obstáculo común en el camino hacia el logro de nuestras metas. En este blog profundizamos en estrategias efectivas para superar la procrastinación y aumentar la productividad. Desde técnicas de gestión del tiempo hasta mantenerse motivado, estamos aquí para ayudarle a hacerse cargo de sus objetivos y adoptar una vida más centrada y plena. ¡Es hora de aprovechar el día y hacer realidad tus sueños!",
           time: "19m",
-          author: "Steve Wagner",
+          author: "Hector Varela",
           comments: "55"
       }
   ]
