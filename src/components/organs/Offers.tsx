@@ -1,5 +1,5 @@
 import { Image } from "../atoms/Image"
-import Offer from "../../assets/hero/3.jpeg"
+import Offer from "../../assets/hero/jgym3.jpeg"
 import { Text } from "../atoms/Text"
 import { OfferTexts } from "../particles/Data"
 import { List } from "../atoms/List"

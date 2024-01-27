@@ -29,19 +29,19 @@ export const NavLinks = [
 
 export const HeroTexts = [
   {
-      Heading: "Unleash Your Inner Strength!",
-      Paragraph: "Welcome to GymNex, where fitness meets fun! Get ready to unleash your inner strength and transform your life!",
-      Button: "Join Now!"
+      Heading: "La fuerza no tiene límites",
+      Paragraph: "Bienvenido a Junior's Gym. Atrevete a sacar la mejor versión de ti con nuestros entrenamientos.",
+      Button: "Ver entrenamientos"
   },
   {
-      Heading: "New Heights of Fitness!",
-      Paragraph: "Push your limits and achieve greatness at our gym! Join our supportive community and embark on a journey of self-improvement and empowerment!",
-      Button: "Sign Up Today!"
+      Heading: "Te ayudamos con tus objetivos",
+      Paragraph: "Nuestro equipo de entrenadores está siempre a tus órdenes para orientarte y apoyarte en la búsqueda de tus objetivos.",
+      Button: "Ver entrenamientos"
   },
   {
-      Heading: "Fitness is Fun with Us!",
-      Paragraph: "At our gym, fitness is not just a routine; it's an enjoyable adventure! Join us in this fitness expedition, where fun and results go hand in hand!",
-      Button: "Enroll Now!"
+      Heading: "Mente sana en cuerpo sano",
+      Paragraph: "Te ayudamos a alcanzar un equilibrio integral entre tu cuerpo y tu mente.",
+      Button: "Ver entrenamientos"
   }
 ]
 

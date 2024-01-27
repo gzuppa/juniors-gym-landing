@@ -1,8 +1,8 @@
 import { useCallback, useRef } from "react";
 import { Image } from "../atoms/Image"
-import HeroImg1 from "../../assets/hero/1.jpeg"
-import HeroImg2 from "../../assets/hero/2.jpeg"
-import HeroImg3 from "../../assets/hero/3.jpeg"
+import HeroImg1 from "../../assets/hero/jgym1.jpeg"
+import HeroImg2 from "../../assets/hero/jgym2.jpeg"
+import HeroImg3 from "../../assets/hero/jgym3.jpeg"
 import { HeroTexts } from "../particles/Data";
 import Slider from "react-slick";
 import { Text } from "../atoms/Text";
@@ -13,24 +13,17 @@ import { Slide, Zoom } from "react-awesome-reveal";
 
 
 const HeroSection = () => {
-
     const sliderRef = useRef<Slider | null>();
-
-    // Function for next button
     const next = () => {
         if (sliderRef.current) {
             sliderRef.current.slickNext();
-
         }
     };
-    // function for previous button
     const previous = () => {
         if (sliderRef.current) {
             sliderRef.current.slickPrev();
         }
-
     };
-
     const settings = {
         dots: false,
         infinite: true,
@@ -55,7 +48,7 @@ const HeroSection = () => {
         }
     }, [])
     return (
-        <section className="w-full h-auto bg-gradient-to-r from-red-500 to-amber-500 relative overflow-x-hidden">
+        <section className="w-full h-auto bg-gradient-to-r from-purple-950 to-purple-200 relative overflow-x-hidden">
             <Slider ref={(slider) => (sliderRef.current = slider)} {...settings} className="h-full">
                 {
                     HeroTexts.map((hero, index) => (
@@ -77,14 +70,14 @@ const HeroSection = () => {
                                 </Text>
                                 <div className="flex items-center gap-8">
                                     <Slide direction="up">
-                                        <Button type="button" className="px-10 font-medium text-white py-2.5 bg-gradient-to-r whitespace-nowrap from-red-500 to-amber-500">
+                                        <Button type="button" className="px-10 font-medium text-white py-2.5 bg-gradient-to-r whitespace-nowrap from-purple-950 to-purple-200">
                                             {hero.Button}
                                         </Button>
                                     </Slide>
                                     <Slide direction="up">
-                                        <a href="/" className="flex items-center gap-2 text-red-500 hover:text-amber-500 group">
+                                        <a href="/" className="flex items-center gap-2 text-red-500 hover:text-yellow-300 group">
                                             <YoutubeLogo size={20} color="currentColor" weight="fill" />
-                                            <Text as="span" className="text-zinc-100 group-hover:text-amber-500 uppercase text-xs">Watch reviews</Text>
+                                            <Text as="span" className="text-zinc-100 group-hover:text-yellow-300 uppercase text-xs">Ver en Youtube</Text>
                                         </a>
                                     </Slide>
                                 </div>
@@ -95,16 +88,14 @@ const HeroSection = () => {
                 }
             </Slider>
             <div className="flex justify-end lg:justify-start items-center gap-4 absolute lg:bottom-10 md:bottom-5 md:right-10 right-4 bottom-4">
-                <Button onClick={previous} type="button" className="w-8 h-8 border rounded-full border-amber-500 flex items-center justify-center text-amber-500 hover:text-red-500 hover:border-red-500">
+                <Button onClick={previous} type="button" className="w-8 h-8 border rounded-full border-yellow-300 flex items-center justify-center text-yellow-300 hover:text-purple-800 hover:border-purple-800">
                     <ArrowCircleLeft size={20} color="currentColor" weight="light" />
                 </Button>
-                <Button onClick={next} type="button" className="w-8 h-8 border rounded-full border-amber-500 flex items-center justify-center text-amber-500 hover:text-red-500 hover:border-red-500">
+                <Button onClick={next} type="button" className="w-8 h-8 border rounded-full border-yellow-300 flex items-center justify-center text-yellow-300 hover:text-purple-800 hover:border-purple-800">
                     <ArrowCircleRight size={20} color="currentColor" weight="light" />
                 </Button>
             </div>
-
             <StickyIcons />
-
         </section>
     )
 }
