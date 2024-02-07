@@ -1,4 +1,4 @@
-import { useCallback, useRef } from "react";
+import { useCallback, useRef, Fragment, useState } from "react";
 import { Image } from "../atoms/Image"
 import HeroImg1 from "../../assets/hero/jgym1.jpeg"
 import HeroImg2 from "../../assets/hero/jgym2.jpeg"
@@ -9,7 +9,9 @@ import { Text } from "../atoms/Text";
 import { Button } from "../atoms/Button";
 import { ArrowCircleLeft, ArrowCircleRight, YoutubeLogo } from "@phosphor-icons/react";
 import StickyIcons from "../molecules/StickyIcons";
+import YoutubeEmbed from "../molecules/YouTubeEmbedVideo";
 import { Slide, Zoom } from "react-awesome-reveal";
+import { Dialog, Transition } from '@headlessui/react'
 
 
 const HeroSection = () => {
@@ -47,6 +49,17 @@ const HeroSection = () => {
                 return "";
         }
     }, [])
+
+    const [isOpen, setIsOpen] = useState(false)
+
+    const closeModal = () => {
+        setIsOpen(false)
+      }
+    
+    const openModal = () => {
+        setIsOpen(true)
+      }
+
     return (
         <section className="w-full h-auto bg-gradient-to-r from-purple-950 to-purple-200 relative overflow-x-hidden">
             <Slider ref={(slider) => (sliderRef.current = slider)} {...settings} className="h-full">
@@ -70,7 +83,7 @@ const HeroSection = () => {
                                 </Text>
                                 <div className="flex items-center gap-8">
                                     <Slide direction="up">
-                                        <Button type="button" className="px-10 font-medium text-white py-2.5 bg-gradient-to-r whitespace-nowrap from-purple-950 to-purple-200">
+                                        <Button type="button" className="px-10 font-medium text-white py-2.5 bg-gradient-to-r whitespace-nowrap from-purple-950 to-purple-200" onClick={openModal}>
                                             {hero.Button}
                                         </Button>
                                     </Slide>
@@ -96,6 +109,64 @@ const HeroSection = () => {
                 </Button>
             </div>
             <StickyIcons />
+
+            <Transition appear show={isOpen} as={Fragment}>
+                <Dialog as="div" className="relative z-10" onClose={closeModal}>
+                <Transition.Child
+                    as={Fragment}
+                    enter="ease-out duration-300"
+                    enterFrom="opacity-0"
+                    enterTo="opacity-100"
+                    leave="ease-in duration-200"
+                    leaveFrom="opacity-100"
+                    leaveTo="opacity-0"
+                >
+                    <div className="fixed inset-0 bg-black/25" />
+                </Transition.Child>
+
+                <div className="fixed inset-0 overflow-y-auto">
+                    <div className="flex min-h-full items-center justify-center p-4 text-center">
+                    <Transition.Child
+                        as={Fragment}
+                        enter="ease-out duration-300"
+                        enterFrom="opacity-0 scale-95"
+                        enterTo="opacity-100 scale-100"
+                        leave="ease-in duration-200"
+                        leaveFrom="opacity-100 scale-100"
+                        leaveTo="opacity-0 scale-95"
+                    >
+                        <Dialog.Panel className="w-full md:w-2/4 transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                        <Dialog.Title
+                            as="h3"
+                            className="text-lg font-medium leading-6 text-purple-900"
+                        >
+                            ¿Cómo comenzar en el gimnasio?
+                        </Dialog.Title>
+                        <div className="mt-2">
+                            <p className="text-sm text-gray-500">
+                            En ocasiones puede ser difícil comenzar a ir al gimnasio. Los siguientes tips pueden ayudarte para decidirte
+                            </p>
+                        </div>
+
+                        <div className="mt-2">
+                            <YoutubeEmbed embedId="8GDHz8jwmTI" />
+                        </div>
+
+                        <div className="mt-4">
+                            <button
+                            type="button"
+                            className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                            onClick={closeModal}
+                            >
+                            Listo!
+                            </button>
+                        </div>
+                        </Dialog.Panel>
+                    </Transition.Child>
+                    </div>
+                </div>
+                </Dialog>
+            </Transition>
         </section>
     )
 }

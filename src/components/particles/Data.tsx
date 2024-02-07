@@ -31,17 +31,17 @@ export const HeroTexts = [
   {
       Heading: "La fuerza no tiene límites",
       Paragraph: "Bienvenido a Junior's Gym. Atrevete a sacar la mejor versión de ti con nuestros entrenamientos.",
-      Button: "Ver entrenamientos"
+      Button: "¿Cómo empezar?"
   },
   {
       Heading: "Te ayudamos con tus objetivos",
       Paragraph: "Nuestro equipo de entrenadores está siempre a tus órdenes para orientarte y apoyarte en la búsqueda de tus objetivos.",
-      Button: "Ver entrenamientos"
+      Button: "¿Cómo empezar?"
   },
   {
       Heading: "Mente sana en cuerpo sano",
       Paragraph: "Te ayudamos a alcanzar un equilibrio integral entre tu cuerpo y tu mente.",
-      Button: "Ver entrenamientos"
+      Button: "¿Cómo empezar?"
   }
 ]
 
