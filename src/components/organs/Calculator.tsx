@@ -13,7 +13,7 @@ const Calculator = () => {
                     <Fade className="w-full">
                         <div className="w-full flex flex-col mt-10 items-center relative before:absolute before:-bottom-6 before:left-38 before:w-20 before:h-1 before:rounded-lg before:bg-gradient-to-r before:from-purple-900 before:to-purple-200 z-10">
                             <Text as="p" className="text-yellow-300 lg:text-sm text-xs tracking-widest uppercase font-medium">Calculadora avanzada</Text>
-                            <Text as="h1" className="text-zinc-100 lg:text-5xl md:text-4xl text-3xl">Calcula tu IMC</Text>
+                            <Text as="h1" className="text-zinc-100 lg:text-5xl md:text-4xl text-3xl">Calcula tu Índice de masa corporal</Text>
                             <Text as="h1" className="absolute text-zinc-500/10 lg:left-52 md:left-32 left-36 lg:text-9xl md:text-7xl text-6xl font-extrabold lg:-top-32 md:-top-20 -top-16 -z-10">04</Text>
                         </div>
                         <Form />

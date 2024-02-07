@@ -83,13 +83,13 @@ export const MembershipPlans = {
   secondText: "Planes de membresía",
   cards: [
       {
-          amount: 30,
+          amount: 40,
           duration: "día",
           caption: "Visita de entrenamiento",
           benefits: ["Visita individual", "Sin límite de tiempo por día", "Acercamiento con entrenadores", "Disponibilidad de todos los aparatos"]
       },
       {
-          amount: 250,
+          amount: 280,
           duration: "mensual",
           caption: "Pago por mes",
           benefits: ["Plan con entrenador full", "Aparatos, pesas y cardio", "Análisis de masa corporal", "Orientación fitness"]
@@ -105,7 +105,7 @@ export const MembershipPlans = {
 
 export const ContactTexts = {
   firstText: "Llamanos",
-  phone: "(+52)55-1234-5678",
+  phone: "55-4583-5585",
   paragraph: "En nuestro gimnasio, puedes comunicarte con cualquiera de nuestros entrenadores para programar una sesión. Los servicios a domicilio también están dentro del alcance de nuestros servicios. ¡Tu estado físico es nuestra preocupación! ¡Salud es riqueza!",
   button: "Envianos un whatsapp"
 }
@@ -117,17 +117,17 @@ export const TestimonialTexts = {
       {
           text: "He venido a Junior's Gym desde hace seis meses y me siento mejor que nunca",
           person: "Gustavo Zuppa",
-          type: "Client"
+          type: "Cliente"
       },
       {
           text: "Los entrenamientos siempre han sido personalizados y a medida, he alcanzado mis metas muy rápido",
           person: "Juan Perez",
-          type: "Client"
+          type: "Cliente"
       },
       {
           text: "Bajé 10 kilos en 2 meses gracias a mis entrenadores",
-          person: "Mitzia Karen",
-          type: "Client"
+          person: "Roberto Morales",
+          type: "Cliente"
       }
   ],
 }
@@ -198,13 +198,16 @@ export const FooterTexts = {
       caption: "Contacto",
       names: [
           {
-              name: "66 Agustin de iturbide Tepexpan centro Tepexpan, Centro, 55884 Mexico, Méx.",
+              name: "66 Agustin de Iturbide Tepexpan centro Tepexpan, Centro, 55884 Mexico, Méx.",
+              href: "https://www.google.com/maps/place/Junior's+Gym/@19.5039525,-99.0723102,12z/data=!4m10!1m2!2m1!1sjuniors+gym!3m6!1s0x85d1ef15daf1cf77:0x56b465b3b248b4f6!8m2!3d19.6135482!4d-98.9388351!15sCgtqdW5pb3JzIGd5bZIBA2d5beABAA!16s%2Fg%2F11pv1dqz15?entry=ttu"
           },
           {
-              name: "gym@gym.com",
+              name: "juniors@gym.com",
+              href: "mailto:juniors@gym.com"
           },
           {
-              name: "+52 55 1234-5678",
+              name: "55 4583-5585",
+              href: "https://api.whatsapp.com/send?phone=5545835585"
           }
       ]
   },

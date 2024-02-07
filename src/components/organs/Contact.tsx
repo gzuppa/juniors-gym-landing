@@ -2,7 +2,6 @@ import { Image } from "../atoms/Image"
 import ContactImg from "../../assets/gym/4.jpeg"
 import { Text } from "../atoms/Text"
 import { ContactTexts } from "../particles/Data"
-import { Button } from "../atoms/Button"
 
 
 const Contact = () => {
@@ -19,9 +18,9 @@ const Contact = () => {
                 <Text as="p" className="text-zinc-100 md:w-1/2 w-4/5 text-center text-lg my-6">
                     {ContactTexts.paragraph}
                 </Text>
-                <Button className="px-10 font-medium text-white py-2.5 bg-gradient-to-r whitespace-nowrap from-purple-800 to-purple-300" type="button">
+                <a href="https://api.whatsapp.com/send?phone=5545835585" className="px-10 font-medium text-white py-2.5 bg-gradient-to-r whitespace-nowrap from-purple-800 to-purple-300 cursor-pointer" target='_blank'>
                     {ContactTexts.button}
-                </Button>
+                </a>
             </div>
         </section>
     )

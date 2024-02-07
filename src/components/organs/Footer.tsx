@@ -56,7 +56,7 @@ const Footer = () => {
                             FooterTexts.contacts.names.map((name, index) => (
                                 <List className="text-zinc-400 flex items-start gap-2" key={index}>
                                     <Text as="span" className="text-yellow-300 mt-1">{renderIcon(index)}</Text>
-                                    <Text as="span" className="">{name.name}</Text>
+                                    <a href={name.href} className="cursor-pointer" target='_blank'>{name.name}</a>
                                 </List>
                             ))
                         }
