@@ -31,17 +31,23 @@ export const HeroTexts = [
   {
       Heading: "La fuerza no tiene límites",
       Paragraph: "Bienvenido a Junior's Gym. Atrevete a sacar la mejor versión de ti con nuestros entrenamientos.",
-      Button: "¿Cómo empezar?"
+      Button: "¿Cómo empezar?",
+      youtubeURL: "https://www.youtube.com/watch?v=SiCC4ophcjI",
+      youtubeText: "¿Cómo funcionan las máquinas?"
   },
   {
       Heading: "Te ayudamos con tus objetivos",
       Paragraph: "Nuestro equipo de entrenadores está siempre a tus órdenes para orientarte y apoyarte en la búsqueda de tus objetivos.",
-      Button: "¿Cómo empezar?"
+      Button: "¿Cómo empezar?",
+      youtubeURL: "https://www.youtube.com/watch?v=yfxv2RWTkgs",
+      youtubeText: "Ejercicios básicos"
   },
   {
       Heading: "Mente sana en cuerpo sano",
       Paragraph: "Te ayudamos a alcanzar un equilibrio integral entre tu cuerpo y tu mente.",
-      Button: "¿Cómo empezar?"
+      Button: "¿Cómo empezar?",
+      youtubeURL: "https://www.youtube.com/watch?v=DNEerOUzgas",
+      youtubeText: "¿Cuantos días entrenar?"
   }
 ]
 

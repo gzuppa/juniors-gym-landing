@@ -88,9 +88,9 @@ const HeroSection = () => {
                                         </Button>
                                     </Slide>
                                     <Slide direction="up">
-                                        <a href="/" className="flex items-center gap-2 text-red-500 hover:text-yellow-300 group">
+                                        <a href={hero.youtubeURL} target='_blank' className="flex items-center gap-2 text-red-500 hover:text-yellow-300 group">
                                             <YoutubeLogo size={20} color="currentColor" weight="fill" />
-                                            <Text as="span" className="text-zinc-100 group-hover:text-yellow-300 uppercase text-xs">Ver en Youtube</Text>
+                                            <Text as="span" className="text-zinc-100 group-hover:text-yellow-300 uppercase text-xs">{hero.youtubeText}</Text>
                                         </a>
                                     </Slide>
                                 </div>
