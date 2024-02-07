@@ -158,49 +158,49 @@ export const BlogTexts = {
 }
 
 export const FooterTexts = {
-  underLogoText: "We are more than just a gym; we are a passionate and supportive fitness family dedicated to helping you achieve your health and wellness goals. Our mission is to create a positive and empowering environment that inspires you to challenge yourself, embrace a healthy lifestyle, and discover the best version of yourself.",
+  underLogoText: "Somos más que un simple gimnasio; Somos una familia de fitness apasionada y solidaria dedicada a ayudarlo a alcanzar sus objetivos de salud y bienestar. Nuestra misión es crear un entorno positivo y empoderador que te inspire a desafiarte a ti mismo, adoptar un estilo de vida saludable y descubrir la mejor versión de ti mismo.",
   quickLinks: {
-      caption: "Quick Links",
+      caption: "Nuestro sitio",
       links: [
           {
-              name: "Home",
+              name: "Inicio",
               url: "/"
           },
           {
-              name: "About Us",
+              name: "Acerca de nosotros",
               url: "/about"
           },
           {
-              name: "Schedule",
+              name: "Envianos un whatsapp",
               url: "/schedule"
           },
           {
-              name: "Gallery",
+              name: "Galería",
               url: "/gallery"
           },
           {
-              name: "News",
+              name: "Blog",
               url: "/news"
           },
           {
-              name: "Contacts",
+              name: "Contacto",
               url: "/contact"
           },
       ]
   },
   contacts: {
-      caption: "Quick Contacts",
+      caption: "Contacto",
       names: [
           {
-              name: "11567 Santa Monica Blvd, Los Angeles, CA 90025, United States",
+              name: "66 Agustin de iturbide Tepexpan centro Tepexpan, Centro, 55884 Mexico, Méx.",
           },
           {
-              name: "gym_nex@example.com",
+              name: "gym@gym.com",
           },
           {
-              name: "+1 424-248-8496",
+              name: "+52 55 1234-5678",
           }
       ]
   },
-  copyright: "Copyright 2023. All Right Reserved"
+  copyright: "©Gustavo Zuppa 2024. Derechos reservados"
 }
