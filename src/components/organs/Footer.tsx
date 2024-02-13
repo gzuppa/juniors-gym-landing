@@ -36,7 +36,7 @@ const Footer = () => {
 
                 {/* Quick Links  */}
                 <div className="flex flex-col md:items-center md:mt-8 gap-4">
-                    <Text as="h1" className="text-zinc-300 text-2xl font-bold">{FooterTexts.quickLinks.caption}</Text>
+                    {/* <Text as="h1" className="text-zinc-300 text-2xl font-bold">{FooterTexts.quickLinks.caption}</Text>
                     <ul className="flex flex-col gap-2">
                         {
                             FooterTexts.quickLinks.links.map((link, index) => (
@@ -45,7 +45,7 @@ const Footer = () => {
                                 </List>
                             ))
                         }
-                    </ul>
+                    </ul> */}
                 </div>
 
                 {/* Quick contacts  */}

@@ -142,7 +142,8 @@ export const BlogTexts = {
           paragraph: "Descubre el poder transformador del yoga mientras exploramos sus numerosos beneficios físicos y mentales. Desde una mayor flexibilidad y fuerza hasta una reducción del estrés y una mayor atención plena. Experimente la armonía de mente, cuerpo y alma.",
           time: "1m",
           author: "Hector Varela",
-          comments: "21"
+          comments: "21",
+          link: 'openModalYoga'
       },
       {
           caption: "Entrenamientos y equipo",
@@ -150,7 +151,8 @@ export const BlogTexts = {
           paragraph: "En nuestro gimnasio, estamos orgullosos de nuestro excepcional equipo de entrenadores expertos a quienes les apasiona guiarlo en su viaje de acondicionamiento físico. Con su conocimiento y enfoque personalizado, recibirá el apoyo que necesita para alcanzar sus objetivos de acondicionamiento físico de manera efectiva. Además, ofrecemos equipos de última generación diseñados para mejorar sus entrenamientos y brindarle una experiencia de acondicionamiento físico integral como ninguna otra.",
           time: "15m",
           author: "Paco Varela",
-          comments: "45"
+          comments: "45",
+          link: '/yoga'
       },
       {
           caption: "No lo dejes para después",
@@ -158,7 +160,8 @@ export const BlogTexts = {
           paragraph: "La procrastinación puede ser un obstáculo común en el camino hacia el logro de nuestras metas. En este blog profundizamos en estrategias efectivas para superar la procrastinación y aumentar la productividad. Desde técnicas de gestión del tiempo hasta mantenerse motivado, estamos aquí para ayudarle a hacerse cargo de sus objetivos y adoptar una vida más centrada y plena. ¡Es hora de aprovechar el día y hacer realidad tus sueños!",
           time: "19m",
           author: "Hector Varela",
-          comments: "55"
+          comments: "55",
+          link: '/yoga'
       }
   ]
 }

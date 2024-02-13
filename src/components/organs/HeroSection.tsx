@@ -3,6 +3,7 @@ import { Image } from "../atoms/Image"
 import HeroImg1 from "../../assets/hero/jgym1.jpeg"
 import HeroImg2 from "../../assets/hero/jgym2.jpeg"
 import HeroImg3 from "../../assets/hero/jgym3.jpeg"
+import JuniorsLogo from "../../assets/shared/juniors-gym-logo-nobg.png"
 import { HeroTexts } from "../particles/Data";
 import Slider from "react-slick";
 import { Text } from "../atoms/Text";
@@ -71,6 +72,7 @@ const HeroSection = () => {
                             </Zoom>
 
                             <div className="md:w-[50%] w-full md:h-full h-1/2 absolute md:top-0 top-1/2 right-0 bg-zinc-900 flex flex-col md:justify-center justify-start lg:gap-8 md:gap-4 gap-2 lg:px-20 md:px-6 px-4 overflow-x-hidden">
+                                <Image className="h-40 w-40" alt="logo" image={JuniorsLogo} />
                                 <Text as="h1" className="lg:text-6xl md:text-4xl text-4xl md:mt-10 mt-10 text-zinc-100 font-extrabold">
                                     <Slide direction="right">
                                         {hero.Heading}
