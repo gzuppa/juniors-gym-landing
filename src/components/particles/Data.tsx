@@ -95,7 +95,7 @@ export const MembershipPlans = {
           benefits: ["Plan con entrenador full", "Aparatos, pesas y cardio", "Análisis de masa corporal", "Orientación fitness"]
       },
       {
-          amount: 2750,
+          amount: 3080,
           duration: "anual",
           caption: "Membresía anual",
           benefits: ["Un mes gratis", "Asesoría personalizada full", "Entrenamientos personalizados", "Orientación fitness"]

@@ -2,7 +2,7 @@ import { Fragment, useState } from "react";
 import { Text } from "../atoms/Text"
 import { Card } from "../molecules/Card"
 import { BlogTexts } from "../particles/Data"
-import Image1 from "../../assets/gym/6.jpeg";
+import Image1 from "../../assets/gym/6.jpg";
 import Image2 from "../../assets/gym/11.jpeg"
 import Image3 from "../../assets/gym/12.jpeg"
 import { Image } from "../atoms/Image";
@@ -52,9 +52,9 @@ const Blogs = () => {
                         <Button type="button" className="px-10 font-medium text-white py-2.5 bg-gradient-to-r whitespace-nowrap from-purple-950 to-purple-200" onClick={openModal1}>
                             Ver más
                         </Button>
-                        <Text as="h3" className="text-purple-300 text-xs group-hover:underline font-semibold uppercase px-1 mt-3">Yoga</Text>
-                        <Text as="h1" className="text-zinc-300 group-hover:underline text-base capitalize px-1">Como mantener un equilibrio entre cuerpo y mente</Text>
-                        <Text as="p" className="text-zinc-400 text-sm px-2">Descubre el poder transformador del yoga mientras exploramos sus numerosos beneficios físicos y mentales. Desde una mayor flexibilidad y fuerza hasta una reducción del estrés y una mayor atención plena. Experimente la armonía de mente, cuerpo y alma.</Text>
+                        <Text as="h3" className="text-purple-300 text-xs group-hover:underline font-semibold uppercase px-1 mt-3">Creatina</Text>
+                        <Text as="h1" className="text-zinc-300 group-hover:underline text-base capitalize px-1">¿Qué es la creatina?</Text>
+                        <Text as="p" className="text-zinc-400 text-sm px-2">La creatina es uno de los suplementos alimenticios más utilizados en la actividad del gimnasio. En este artículo te enseñamos que es, como utilizarla y como te va a ayudar a mejorar tus rutinas y rendimiento.</Text>
                         <div className="flex justify-between lg:px-6 md:px-4 px-6 pb-6 items-center">
                             <aside className="flex items-center gap-2">
                                 <Text as="span" className="text-zinc-400 text-xs flex items-center gap-1 border-r border-zinc-400 pr-2">
@@ -94,7 +94,7 @@ const Blogs = () => {
                         <Button type="button" className="px-10 font-medium text-white py-2.5 bg-gradient-to-r whitespace-nowrap from-purple-950 to-purple-200" onClick={openModal3}>
                             Ver más
                         </Button>
-                        <Text as="h3" className="text-purple-300 text-xs group-hover:underline font-semibold uppercase px-1 mt-3">Yoga</Text>
+                        <Text as="h3" className="text-purple-300 text-xs group-hover:underline font-semibold uppercase px-1 mt-3">Pérdida de peso</Text>
                         <Text as="h1" className="text-zinc-300 group-hover:underline text-base capitalize px-1">¿Qué es más eficaz para perder peso?</Text>
                         <Text as="p" className="text-zinc-400 text-sm px-2">
                             Las tendencias de los últimos años de programas de pérdida de peso en casa demuestran de manera inequívoca que, para perder peso, la clave es el cardio. Ni el levantamiento de peso ni el cardio te ayudarán a hacerlo por sí solos: los necesitas a los dos.</Text>
@@ -143,38 +143,29 @@ const Blogs = () => {
                             as="h3"
                             className="text-2xl font-medium leading-6 text-purple-700 mb-8"
                         >
-                            Como mantener un equilibrio entre cuerpo y mente
+                            ¿Qué es la creatina?
                         </Dialog.Title>
 
-                        <p className="pb-6 italic text-sm">
-La conexión profunda de cuerpo y mente, que alienta esta práctica ancestral, podría impactar de manera positiva tu estado emocional.</p>
+                        <p className="pb-6 italic text-sm">Creatina monohidrato e ingesta de creatina.</p>
 
                         <div className="mb-4 md:mb-0 w-full mx-auto relative">
-                            <img src="https://res.cloudinary.com/gusironhack/image/upload/v1707795680/yoga.jpg" className="w-full object-cover lg:rounded" />
+                            <img src="https://res.cloudinary.com/gusironhack/image/upload/v1709006381/creatina.webp" className="w-full object-cover lg:rounded" />
                         </div>
 
                         <div className="flex flex-col lg:flex-row lg:space-x-12">
 
                             <div className="px-4 lg:px-0 mt-12 text-gray-700 text-lg leading-relaxed w-full lg:w-3/4">
-                            <p className="pb-6">A través de la respiración y la meditación profunda, el yoga otorga distintos beneficios a las personas que lo practican. Desde aumentar su flexibilidad corporal, hasta mejorar la salud en general y reducir el estrés, son ganancias que se obtienen al darle oportunidad a la gente de conectar con sus emociones y su propio cuerpo.</p>
+                            <p className="pb-6">Particularmente en el medio deportivo, es común escuchar hablar de creatina, creatina monohidrato, suplementos de creatina, fosfato de creatina y cómo la creatina apoya el desarrollo muscular y el metabolismo energético. Pero, ¿qué es exactamente la creatina y dónde se encuentra en el cuerpo?</p>
+                            <h2 className="text-2xl text-gray-800 font-semibold mb-4 mt-4">BIOSÍNTESIS DE LA CREATINA</h2>
+                            <p className="pb-6">La creatina es una sustancia endógena que se forma a partir de los aminoácidos arginina, glicina y metionina. Se encuentra principalmente en las células de los músculos. Se produce en el hígado, riñones y páncreas. La creatina se transporta a los órganos objetivo (por ejemplo, músculos esqueléticos, corazón y cerebro) y es absorbida por ellos.</p>
 
-                            <p className="pb-6">Pero distintos expertos también ha resaltado los beneficios que puede tener para el cerebro, pues aumenta distintas sustancias. Estas disminuyen la ansiedad o influyen positivamente en regiones que tienen que ver con la memoria y la regulación emocional.</p>
-
-                            <p className="pb-6">Debido a que la premisa básica del yoga es buscar la relajación a través de la respiración y la meditación, combinada con posturas de estiramiento, quienes la practican notan mejoras importantes en su tono muscular y fuerza física.</p>
-
+                            <p className="pb-6">La creatina monohidrato es un tipo de creatina que se ofrece para usar como suplemento. Contiene creatina en la misma forma en la que se da en el cuerpo. Numerosos estudios han examinado la eficacia del creatina monohidrato, que es la forma más común de creatina que se utiliza para los suplementos nutricionales. El creatina monohidrato es estable, seguro y puede ser absorbido fácilmente por el cuerpo. También actúa de forma fiable.</p>
+                            <h2 className="text-2xl text-gray-800 font-semibold mb-4 mt-4">¿CUÁNTA CREATINA NECESITA EL CUERPO?</h2>
                             <div className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
-                            Pero también “puede ayudar a reducir la respuesta al estrés, activando nuestro sistema nervioso parasimpático y reduciendo las emociones negativas como la depresión, la ansiedad y la irá”, explicó Corinna Keenmon, directora médica de psiquiatría y telepsiquiatría del Hospital Houston Methodist, a través de un comunicado de prensa.
+                            Un adulto con un peso de 70 kg necesita de 2 a 4 g de creatina al día. Aproximadamente, la mitad la producen diariamente el hígado, los riñones y el páncreas. El resto se absorbe a través de los alimentos (carne y pescado). Por lo tanto, la suplementación con creatina puede tener sentido para los vegetarianos o las personas que comen muy poca carne porque consumen poca o ninguna creatina. Aquellos que quieran aumentar activamente su capacidad física durante períodos de estrés intenso, aumentando así activamente su masa muscular, también pueden beneficiarse de la suplementación con creatina. Tomar creatina ayuda a optimizar los niveles de creatina de los tejidos corporales. No existe riesgo de que los depósitos de creatina se sobrecarguen.
                             </div>
-
-                            <p className="pb-6">La institución resalta que el yoga disminuye las hormonas del estrés y, al mismo tiempo, aumenta las sustancias químicas beneficiosas del cerebro como las endorfinas y el GABA (ácido gamma-aminobutírico). “Estos químicos ayudan a reducir la ansiedad y mejorar el estado de ánimo”.</p>
-
-                            <h2 className="text-2xl text-gray-800 font-semibold mb-4 mt-4">BENEFICIOS DEL YOGA PARA EL CEREBRO</h2>
-
-                            <p className="pb-6">En el mismo sentido un artículo científico publicado en la revista ‘Brain pasticity’ en 2019: ‘Yoga Effects on Brain Health: A Systematic Review of the Current Literature’ establecía que esta práctica ancestral podría tener beneficios para el cerebro similares a los que aporta el ejercicio aeróbico, como la regulación emocional para reducir el estrés, la ansiedad y la depresión. “Y eso parece mejorar el funcionamiento del cerebro.”</p>
-
-                            <p className="pb-6">La investigación llevada a cabo en la Universidad de Illinois, Estados Unidos, también resaltó que existen evidencias respecto a que el yoga aumenta el volumen del hipocampo, el cual está involucrado en procesamiento de la memoria, mismo que se reduce con la edad.</p>
-
-                            <p className="pb-6">De tal forma que además de los beneficios de flexibilidad, llevar a cabo esta práctica, al menos 10 minutos al día, podría tener muchas más ventajas de las que piensas.</p>
+                            <h2 className="text-2xl text-gray-800 font-semibold mb-4 mt-4">SUPLEMENTACIÓN DE CREATINA</h2>
+                            <p className="pb-6">La investigación científica ha demostrado que el uso de creatina como suplemento dietético mejora el rendimiento físico durante ejercicios cortos, intensivos y repetitivos. Esto conduce a un desarrollo muscular óptimo y ayuda a promover su crecimiento a largo plazo. Una mayor disponibilidad de creatina en los músculos mejora el suministro de energía a las células musculares, lo que hace posible mejorar el rendimiento.</p>
 
                             </div>
 
